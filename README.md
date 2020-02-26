@@ -11,7 +11,7 @@ Instruction :
   
 3.press on Todo to line-through it and grey it out.
 
-    3.1 press again to return to original.
+   3.1 press again to return to original.
 
 Enjoy:)
  
