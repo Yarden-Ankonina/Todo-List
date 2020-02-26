@@ -5,6 +5,7 @@ Link to website:
 Instruction :
 
 1.write your new Todo in the "Add new Todo" area.
+
 1.1. press Enter on keyboard to add Todo.
 
 2. Press on the plus icon to toggle the text input area.
