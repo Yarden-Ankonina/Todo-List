@@ -1,4 +1,5 @@
 
+let FaveTodo=["hi","bye"];
 //Check off specific todos by clicking on them
 $("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
@@ -19,7 +20,7 @@ $("input[type='text']").keypress(function(event){
         //reset input
         $(this).val("");
         //Create new li and add to ul
-        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + todoText + "</li>");
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + todoText + "<i class='far fa-star'></i></li>");
     }
 });
 
@@ -29,4 +30,9 @@ $(".fa-plus").click(function(){
 
 $(".fa-info-circle").click(function(){
    alert("Instructions : 1.write todo in input and press ENTER to add Todo, 2.Press Todo to cross out task, 3.Hover on Todo and press trashcan icon to delete Todo, 4.Press plus to minimize input box")
+});
+
+$("ul").on("click", ".fa-star", function(event){
+    $(this).toggleClass("favor");
+    event.stopPropagation();
 });

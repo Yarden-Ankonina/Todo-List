@@ -56,9 +56,38 @@
 
 
 .fa-plus{
+    padding-top: 3px;
     float: right;
+    
 }
 
+.fa-plus:hover{
+    color:rgb(151, 255, 224);   
+}
+
+h1 .fa-star {
+    margin-left: 130px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+h1 .fa-star:hover {
+    color:rgb(151, 255, 224);
+}
+
+li .fa-star{
+    float: right;
+    margin-right: 8px;
+    padding-top: 11px;
+}
+
+li .fa-star:hover{
+        color: rgb(109, 226, 255);
+}
+
+.favor {
+    color: rgb(109, 226, 255);
+}
 .fa-info-circle {
     padding: 10px 10px 10px 17px;
     font-size: 30px;
